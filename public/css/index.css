@@ -1,3 +1,150 @@
+/* Завдання 1 */
 .task_1 h1 {
   color: green;
 }
+
+.task_1 p {
+  color: red;
+}
+
+.task_1 button {
+  text-decoration: 1px #000;
+  background-color: #0d6efd;
+  
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.task_1 button:hover {
+  background-color: #0b5ed7;
+}
+
+/* Завдання 2 */
+.task_2 h1 {
+  direction: rtl;
+}
+
+.task_2 p {
+  text-align: right;
+}
+
+.task_2 button {
+  text-transform: uppercase;
+}
+
+/* Завдання 3 */
+.task_3 h1 {
+  writing-mode: vertical-lr;
+}
+
+.task_3 pre {
+  /* tab-size: 4; не працює чомусь */
+  text-indent: 4em;
+}
+
+.task_3 button {
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+/* Завдання № 4. */
+.task_4 h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+.task_4 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* Завдання № 5. */
+.task_5 div {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.task_5 button {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: content-box;
+}
+
+.task_5 input {
+  min-width: 150px;
+  min-height: 45px;
+  max-width: 300px;
+  max-height: 60px;
+  background: grey;
+}
+
+.task_5 p {
+  /* display: none; */
+  visibility: hidden;
+}
+
+/* Завдання № 6. */
+.task_6 h1 {
+  outline: 3px double blue;
+  margin: 10px;
+}
+
+.task_6 div {
+  border: 3px dotted red;
+}
+
+.task_6 button {
+  border-radius: 25px;
+  text-shadow: 2px 2px 10px #888888;
+}
+
+/* Завдання № 7. */
+.task_7 button {
+  box-shadow: 2px 2px 5px 10px #666666;
+  line-height: 2;
+}
+
+.task_7 strong {
+  position: absolute;
+  top: auto;
+
+  cursor: wait;
+}
+
+/* Завдання № 8. */
+.task_8 div {
+  visibility: hidden;
+}
+
+.task_8 p {
+  max-height: 70px;
+  overflow: scroll;
+}
+
+.task_8 h1 {
+  max-height: 50px;
+  overflow: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+}
+
+/*  Завдання № 9. */
+.task_9 h1 {
+  white-space: nowrap;
+  word-spacing: 30px;
+}
+
+.task_9 div {
+  hyphens: auto;
+}
+
+.task_9 p {
+  word-wrap: break-word;
+}
+
+.task_9 textarea {
+  resize: none;
+}
+
